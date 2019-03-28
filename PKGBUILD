@@ -10,7 +10,6 @@ license=('unknown')
 arch=('i686' 'x86_64')
 depends=('shared-mime-info' 'desktop-file-utils')
 install="vstax.install"
-changelog="ChangeLog"
 [ "${CARCH}" = "i686" ] && _CARCH='i386'
 [ "${CARCH}" = "x86_64" ] && _CARCH='amd64'
 source=("https://sftp.vs.ch/${pkgname}/${_year}/${pkgname}${_year}_${_CARCH}.deb")
