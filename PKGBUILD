@@ -8,7 +8,7 @@ pkgdesc="Software to fill the tax forms of the canton of Valais, Switzerland"
 url="http://www.vs.ch/vstax"
 license=('unknown')
 arch=('i686' 'x86_64')
-depends=('shared-mime-info' 'desktop-file-utils')
+depends=('shared-mime-info' 'desktop-file-utils' 'okular')
 install="vstax.install"
 [ "${CARCH}" = "i686" ] && _CARCH='i386'
 [ "${CARCH}" = "x86_64" ] && _CARCH='amd64'
