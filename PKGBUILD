@@ -1,7 +1,5 @@
 # Maintainer Pierre-Yves Savioz <savioz.py@net-c.com>
 
-# Maintainer Pierre-Yves Savioz <savioz.py@net-c.com>
-
 pkgname="vstax"
 _year="2019"
 pkgver="${_year}_1.0.8"
